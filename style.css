@@ -10,6 +10,12 @@ body{
 	width: 400px;
 	border-radius: 10px;
 }
+.raisin:hover{
+	height: 600px;
+	width: 500px;
+	border-radius: 10px;
+}	
+}
 .aboutMe{
 	color:white;
   	width:800px;
