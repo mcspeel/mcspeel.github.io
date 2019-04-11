@@ -1,10 +1,16 @@
 body{
-  background-color:#AC84C2;
+  background-color:#D7BDE2;
+  color:#000000;
 }
 
 .banner{
-  max-width: 90%;
+  max-width: 100%;
   margin: auto;
+  border-style: none;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 5px;
 }
 
 .lifeInManyColors{
@@ -15,4 +21,75 @@ body{
 
 header{
   text-align: right;
+  padding: 30px;
+}
+
+.raisin{
+	float: right;
+	padding: 30px;
+	max-width: 200px;
+	height: auto;
+	opacity: 0.5;
+	box-shadow: 5px 5px 3px grey;
+}
+.raisin:hover{
+  float: right;
+	padding: 30px;
+	max-width: 200px;
+	height: auto;
+	opacity: 1.0;
+}
+
+.fanson{
+  float: left;
+  margin: 5px 10px 5px 0px;
+  padding: 10px;
+  max-width: 200px;
+  height: auto;
+  opacity: 0.5;
+  box-shadow: 5px 5px 3px grey;
+}
+
+.fanson:hover{
+  float: left;
+  padding: 10px;
+  max-width: 200px;
+  height: auto;
+  opacity: 1.0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #EBDEF0;
+  overflow: hidden;
+}
+li{
+  float: left;
+  position: sticky;
+}
+li a {
+  display: block;
+  padding: 8px;
+  background-color: #EBDEF0;
+  text-decoration: none;
+  color: #000000;
+}
+
+li a:hover {
+  display: block;
+  padding: 8px;
+  background-color: #ffffff;
+  text-decoration: none;
+  color:#000000;  
+}
+
+li a:hover:not(.active) {
+  background-color: #ffffff;
+  color:#000000;
+}
+
+.bodyText{
+  padding-left: 120px;
 }
